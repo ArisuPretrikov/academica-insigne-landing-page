@@ -79,7 +79,7 @@ function textoSobre() {
             {/* 2. Div do conteúdo: removido h-full e trocado pt-[5%] por py-[5%] para dar espaço no topo e embaixo */}
             <div className='relative z-10 w-full px-[5%] pt-[5%] grid grid-cols-1 sm:grid-cols-2'>
 
-              <div className=' text-[clamp(1rem,1.2vw,1.1rem)] w-[5]'>
+              <div className=' text-[clamp(1rem,1.2vw,1.1rem)]'>
                 <img src={Frame7} className='w-full max-w-[400px] mb-4' alt="Frame 7" />
                 <div className='text-[#02022F]'>
                   O Prof. Pedro da Mata é um especialista em pesquisa científica, com graduação em Direito e pós-graduações em Linguística Aplicada, Metodologia da Pesquisa Científica e Docência no Ensino Superior. Com mais de 50 trabalhos publicados, ele compreende as dificuldades dos alunos, oferece suporte contínuo e os motiva a alcançar excelência, sem desistir deles.

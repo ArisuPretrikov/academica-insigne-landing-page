@@ -62,7 +62,7 @@ const Login = () => <div className="p-10 text-center text-2xl font-bold">🔐 P�
 // ---------------------------------------------------------
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/academica-insigne-landing-page/">
       <Routes>
         {/* A rota pai "/" usa o Layout. Tudo aqui dentro terá o Header e o Footer. */}
         <Route path="/" element={<Layout />}>
