@@ -1,5 +1,4 @@
 
-import Foto from '../../assets/Foto4.png'
 import Title from '../../assets/title2.png'
 import Title2 from '../../assets/title3.png'
 import List from '../../assets/List.png'
