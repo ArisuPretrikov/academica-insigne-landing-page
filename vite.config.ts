@@ -4,11 +4,12 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/academica-insigne-landing-page/',
   plugins: [
     tailwindcss(),
     react()],
   server: {
-    host: true, // Garante que a rede consiga acessar
-    allowedHosts: true // <-- A linha mágica! Libera o acesso para qualquer link do Ngrok
+    host: true,
+    allowedHosts: true
   }
 })
