@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: inherit;
+}
+
+
+#hiperlink{
+    color: #FF8611;
+    text-decoration: underline;
+}
+
+#root {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: auto;
+  margin: 0 auto;
+}
+body{
+    background-color: #02022F;
+    /* overflow-x: hidden; */
+}
+
+h2{
+  font-size: 2rem;
+}
